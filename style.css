@@ -1,0 +1,166 @@
+/* * {
+    border: 1px solid;
+    color: #fff;
+    
+}*/
+
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin: 30px 0 15px 0;
+    /*background-color: black;*/
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    border: 1px solid #48001d;
+    background-color: #b42961;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 8px 5px 5px #48001d;
+
+}
+
+.description {
+    color: #ccff7f;
+    font-size: 22px;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.comentary {
+    color: #ccff7f;
+    font-size: 16px;
+    margin: 20px 5px;
+    text-align: left;
+}
+
+/*.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}*/
+
+
+
+
+
+
+
+
+
+.unordered-list li  {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
+
+.list-item a {
+    color: #fff;
+}
+
+.parent-recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container, 
+.list {
+    width: 800px;
+    height: auto;
+    border: 1px solid #48001d;
+    background-color: #b42961;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 8px 5px 5px #48001d;
+    
+}
+
+.list {
+    width: 500px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color:#48001d;
+    margin-right: 20px;
+}
+
+.recipe-list {
+    /*list-style: none;*/
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    
+}
+
+.ingredients-container {
+    width: 35%;
+    margin-left: -26px;
+} 
+
+.ingredients-container h3,
+.steps-container h3 {
+    margin-left: 25px;
+    
+}
+
+.steps-container {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+img {
+    margin-top: 20px;
+    height: auto;
+    width: 200px;
+    border-radius: 15px 0;
+}
+
+.caption {
+    color: #ccff7f;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48001d;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+    
